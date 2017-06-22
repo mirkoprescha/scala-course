@@ -67,6 +67,8 @@ factorial(2)
 
 //rewrite above sum of cubes using anonym. f
 sum((x:Int) => x*x*x,3,5)
+//or
+sum( x => x*x*x,3,5)
 
 
 
