@@ -39,6 +39,7 @@ sumCubes(3,5)
   *
   * Functions are called Higher-Order functions if the get a function as a parameter or return a function as result
   * Useful, if we need to reuse a pattern of a general function like "sum up" specific function results.
+  * We often need to pass very specific functions to higher order functions like map, filter or reduce
   */
 
 def factorial(a :Int): Int = if (a==0) 1 else a * factorial (a-1)
