@@ -13,7 +13,7 @@ object rationals {
 
 
 class Rational (x: Int, y: Int) {
-  //functions defined in a data abstraction like class are calle methods
+  //functions defined in a data abstraction like class are called methods
   def numer = x
   def denom = y
   def add (that: Rational) =
